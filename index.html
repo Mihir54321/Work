@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Litera-The literature Club</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-btn {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropdown-btn {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+
+<div class="dropdown">
+    <button class="dropdown-btn">Choose Your Option</button>
+    <div class="dropdown-content">
+        <a href="https://forms.gle/tQ9rg3KHD1HPDigu5" target="https://forms.gle/tQ9rg3KHD1HPDigu5">Option 1: Literata</a>
+        <a href="https://linkB.com" target="_blank">Option 2: Tatsam</a>
+        <a href="https://linkC.com" target="_blank">Option 3: Kalavruksha</a>
+    </div>
+</div>
+
+</body>
+</html>
